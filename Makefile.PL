@@ -9,25 +9,25 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Manage your JavaScript dependencies',
-  'AUTHOR' => 'Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "Manage your JavaScript dependencies",
+  "AUTHOR" => "Arthur Axel \"fREW\" Schmidt <frioux+cpan\@gmail.com>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'JavaScript-Dependency-Manager',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'JavaScript::Dependency::Manager',
-  'PREREQ_PM' => {
-    'Moo' => '0.009010',
-    'Sub::Quote' => '0',
-    'Tie::IxHash' => '1.22',
-    'autodie' => '2.10'
+  "DISTNAME" => "JavaScript-Dependency-Manager",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "JavaScript::Dependency::Manager",
+  "PREREQ_PM" => {
+    "Moo" => "0.009010",
+    "Sub::Quote" => 0,
+    "Tie::IxHash" => "1.22",
+    "autodie" => "2.10"
   },
-  'VERSION' => '0.001000',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.001001",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

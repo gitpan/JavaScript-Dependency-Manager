@@ -1,6 +1,6 @@
 package JavaScript::Dependency::Manager;
-BEGIN {
-  $JavaScript::Dependency::Manager::VERSION = '0.001000';
+{
+  $JavaScript::Dependency::Manager::VERSION = '0.001001';
 }
 
 # ABSTRACT: Manage your JavaScript dependencies
@@ -110,6 +110,10 @@ sub _direct_requirements_for {
 }
 
 
+1;
+
+# This code was written at the Tallulah Travel Center in Louisiana
+
 __END__
 =pod
 
@@ -119,7 +123,7 @@ JavaScript::Dependency::Manager - Manage your JavaScript dependencies
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 SYNOPSIS
 
@@ -200,17 +204,13 @@ Dale Schmidt.  He was my grandfather as well as the inventor of a chemical
 called Sand Control 60 (SC60,) which was used in oil fields to reduce the
 need to redrill entire wells due to sand clogging.
 
-1;
-
-# This code was written at the Tallulalh Travel Center in Louisiana
-
 =head1 AUTHOR
 
 Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Arthur Axel "fREW" Schmidt.
+This software is copyright (c) 2012 by Arthur Axel "fREW" Schmidt.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

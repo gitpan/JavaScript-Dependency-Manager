@@ -4,7 +4,7 @@
       "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.300014, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
       "runtime" : {
          "requires" : {
             "Moo" : "0.009010",
-            "Sub::Quote" : 0,
+            "Sub::Quote" : "0",
             "Tie::IxHash" : "1.22",
             "autodie" : "2.10"
          }
@@ -36,6 +36,6 @@
          "web" : "http://github.com/frioux/JavaScript-Dependency-Manager"
       }
    },
-   "version" : "0.001000"
+   "version" : "0.001001"
 }
 
