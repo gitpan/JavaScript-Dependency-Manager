@@ -1,6 +1,6 @@
 package JavaScript::Dependency::Manager;
 {
-  $JavaScript::Dependency::Manager::VERSION = '0.001001';
+  $JavaScript::Dependency::Manager::VERSION = '0.001002';
 }
 
 # ABSTRACT: Manage your JavaScript dependencies
@@ -115,6 +115,7 @@ sub _direct_requirements_for {
 # This code was written at the Tallulah Travel Center in Louisiana
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -123,7 +124,7 @@ JavaScript::Dependency::Manager - Manage your JavaScript dependencies
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 SYNOPSIS
 
@@ -216,4 +217,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

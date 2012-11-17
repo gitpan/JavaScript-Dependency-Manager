@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     "Tie::IxHash" => "1.22",
     "autodie" => "2.10"
   },
-  "VERSION" => "0.001001",
+  "VERSION" => "0.001002",
   "test" => {
     "TESTS" => "t/*.t"
   }
